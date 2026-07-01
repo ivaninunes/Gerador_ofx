@@ -1,8 +1,8 @@
 const CACHE = 'gerador-ofx-v1';
 const ASSETS = [
-  '/gerador-ofx/',
-  '/gerador-ofx/index.html',
-  '/gerador-ofx/manifest.json',
+  '/Gerador_ofx/',
+  '/Gerador_ofx/index.html',
+  '/Gerador_ofx/manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js',
   'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap'
 ];
