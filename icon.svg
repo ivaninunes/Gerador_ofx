@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E31E1E"/>
+      <stop offset="100%" stop-color="#CC1212"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background: white card, same feel as the app UI -->
+  <rect width="512" height="512" rx="100" fill="#ffffff"/>
+  <rect x="4" y="4" width="504" height="504" rx="97" fill="none" stroke="#e0e0e0" stroke-width="6"/>
+
+  <!-- spreadsheet (source) -->
+  <rect x="88" y="150" width="150" height="180" rx="14" fill="none" stroke="#1a1a1a" stroke-width="12" transform="rotate(-6 163 240)"/>
+  <g transform="rotate(-6 163 240)" stroke="#1a1a1a" stroke-width="8">
+    <line x1="88" y1="200" x2="238" y2="200"/>
+    <line x1="88" y1="250" x2="238" y2="250"/>
+    <line x1="88" y1="300" x2="238" y2="300"/>
+    <line x1="140" y1="150" x2="140" y2="330"/>
+    <line x1="188" y1="150" x2="188" y2="330"/>
+  </g>
+
+  <!-- arrow: spreadsheet -> OFX -->
+  <path d="M 250 260 L 310 260" stroke="url(#acc)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 288 234 L 316 260 L 288 286" fill="none" stroke="url(#acc)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- document (result) -->
+  <path d="M 322 150
+           L 392 150
+           L 424 182
+           L 424 330
+           Q 424 344 410 344
+           L 336 344
+           Q 322 344 322 330
+           Z"
+        fill="none" stroke="#1a1a1a" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M 392 150 L 392 176 Q 392 182 398 182 L 424 182" fill="none" stroke="#1a1a1a" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- OFX tag -->
+  <rect x="340" y="296" width="72" height="34" rx="8" fill="url(#acc)"/>
+  <text x="376" y="320" font-family="'Montserrat','Arial',sans-serif" font-weight="800" font-size="18" fill="#fff" text-anchor="middle" letter-spacing="0.5">OFX</text>
+
+  <!-- brand wordmark, bottom -->
+  <text x="256" y="440" font-family="'Montserrat','Arial',sans-serif" font-weight="800" font-size="46" text-anchor="middle" letter-spacing="0.5">
+    <tspan fill="#1a1a1a">a</tspan><tspan fill="url(#acc)">NEXO</tspan>
+  </text>
+</svg>
