@@ -1,0 +1,19 @@
+{
+  "name": "Gerador OFX - Anexo Contabilidade",
+  "short_name": "Gerador OFX",
+  "description": "Gera arquivos OFX a partir de planilhas com apoio de IA",
+  "start_url": "/gerador-ofx/",
+  "scope": "/gerador-ofx/",
+  "display": "standalone",
+  "background_color": "#f6f6f6",
+  "theme_color": "#CC1212",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
